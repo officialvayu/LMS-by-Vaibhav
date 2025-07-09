@@ -20,7 +20,7 @@ Got it! Here's the **final cleaned-up version** with:
 
 ---
 
-<img width="1440" alt="screenshot" src="https://github.com/user-attachments/assets/08644f49-6ae0-4695-86cc-afe331c6f61a">
+<img width="1440" alt="screenshot" src="https://github.com/officialvayu/lms-image/blob/main/WhatsApp%20Image%202025-07-09%20at%207.15.41%20PM.jpeg">
 
 ---
 
