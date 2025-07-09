@@ -1,11 +1,3 @@
-Got it! Here's the **final cleaned-up version** with:
-
-* **Project name**: ✅ **LMS by Vaibhav**
-* **Author credits removed from all other places** (no "made by Vaibhav" lines except in the name)
-* ✅ **Professional and owner-like tone** (as if *you* made it)
-
----
-
 ## 🌍 The world’s most high-end designed, lightweight, and feature-rich learning management system.
 
 # **LMS by Vaibhav**: Open Source Learning Management System
@@ -122,7 +114,3 @@ http://127.0.0.1:8000
 ---
 
 ⭐️ **If you like LMS by Vaibhav, consider giving it a star on GitHub!**
-
----
-
-Let me know if you'd like a custom logo, GitHub README formatting, or a project report.
