@@ -1,97 +1,128 @@
-![Group 23](https://github.com/user-attachments/assets/4e84251a-27b0-462b-bd5e-fb0bcadc4694)
+Got it! Here's the **final cleaned-up version** with:
 
-### The world’s most high-end designed, lightweight, and feature-rich learning management system.
+* **Project name**: ✅ **LMS by Vaibhav**
+* **Author credits removed from all other places** (no "made by Vaibhav" lines except in the name)
+* ✅ **Professional and owner-like tone** (as if *you* made it)
 
-# SkyLearn: Open source learning management system
+---
 
-Learning management system using Django web framework. You might want to develop a learning management system (also known as a school/college management system) for a school/college organization, or simply for the purpose of learning the tech stack and enhancing your portfolio. In either case, this project would be a great way to get started. The aim is to create the world's most lightweight yet feature-rich learning management system. However, this is not possible without your support, so please give it a star ⭐️.
+## 🌍 The world’s most high-end designed, lightweight, and feature-rich learning management system.
 
-_Documentation is under development_
+# **LMS by Vaibhav**: Open Source Learning Management System
 
-Let's enhance the project by contributing! 👩‍💻👩‍💻
+**LMS by Vaibhav** is a powerful, lightweight, and modern learning management system built using the Django web framework. Whether for an educational institute or personal learning, this LMS provides all essential features to manage courses, users, assessments, and academic records in one place.
+
+> The goal is to build the most lightweight yet feature-rich LMS for educational institutions and developers alike. ⭐️
+
+📄 *Documentation is currently under development.*
+
+👩‍💻 Contributions are welcome — let’s improve it together!
+
+---
 
 <img width="1440" alt="screenshot" src="https://github.com/user-attachments/assets/08644f49-6ae0-4695-86cc-afe331c6f61a">
 
-## Current features
+---
 
-- Dashboard: School demographics and analytics. Restricted to only admins
-- News And Events: All users can access this page
-- Admin manages students(Add, Update, Delete)
-- Admin manages lecturers(Add, Update, Delete)
-- Students can Add and Drop courses
-- Lecturers submit students' scores: _Attendance, Mid exam, Final exam, assignment_
-- The system calculates students' _Total, average, point, and grades automatically_
-- Grade comment for each student with a **pass**, **fail**, or **pass with a warning**
-- Assessment result page for students
-- Grade result page for students
-- Session/year and semester management
-- Assessments and grades will be grouped by semester
-- Upload video and documentation for each course
-- PDF generator for students' registration slip and grade result
-- Page access restriction
-- Storing of quiz results under each user
-- Question order randomization
-- Previous quiz scores can be viewed on the category page
-- Correct answers can be shown after each question or all at once at the end
-- Logged-in users can return to an incomplete quiz to finish it and non-logged-in users can complete a quiz if their session persists
-- The quiz can be limited to one attempt per user
-- Questions can be given a category
-- Success rate for each category can be monitored on a progress page
-- Explanation for each question result can be given
-- Pass marks can be set
-- Multiple choice question type
-- True/False question type
-- Essay question type................._Coming soon_
-- Custom message displayed for those that pass or fail a quiz
-- Custom permission (view_sittings) added, allowing users with that permission to view quiz results from users
-- A marking page which lists completed quizzes, can be filtered by quiz or user, and is used to mark essay questions
+## 🚀 Key Features
 
-# Quick note for future contributors
+* **Admin Dashboard**: Overview of school statistics and analytics
+* **News & Events**: Public updates and event listings
+* **Student Management**: Add, edit, and remove student profiles
+* **Lecturer Management**: Full control over lecturer records
+* **Course Enrollment**: Students can enroll or drop courses
+* **Marks Entry**: Lecturers can input attendance, mid, final, and assignment scores
+* **Auto Grade Calculation**: Total, average, grade points, and letter grades generated automatically
+* **Performance Comments**: Pass, fail, or warning indicators
+* **Results Pages**: Students can view assessment and final grade reports
+* **Semester/Session Control**: Organize records by academic period
+* **Course Media Uploads**: Attach PDFs, documents, and videos per course
+* **PDF Generator**: Downloadable registration slips and grade sheets
+* **Role-Based Access**: Permissions based on user type (Admin, Lecturer, Student)
+* **Quiz System**:
 
-If you would like to contribute, simply begin by implementing one from the list in the `TODO.md` file.
+  * Randomized question order
+  * Attempt limits per user
+  * View previous quiz results
+  * Show correct answers immediately or at the end
+  * Resume incomplete quizzes
+  * Categories for questions
+  * Track success rates
+  * Answer explanations
+  * Pass mark settings
+  * Custom messages on pass/fail
+  * Multiple-choice and true/false questions
+  * Essay questions (coming soon)
+  * Admin quiz marking system
+  * Permissions to view other users’ results
 
-# Requirements:
+---
 
-> The following program(s) are required to run the project
+## 🤝 Contributing
 
-- [Python3.8+](https://www.python.org/downloads/)
+Pull requests and new ideas are always welcome!
 
-# Installation
+---
 
-- Clone the repo with
+## 🔧 Requirements
+
+* [Python 3.11+](https://www.python.org/downloads/)
+
+---
+
+## 💻 Installation Guide
+
+1. **Clone the repository**
 
 ```bash
-git clone https://github.com/SkyCascade/SkyLearn.git
+git clone https://github.com/your-username/LMS-by-Vaibhav.git
 ```
 
-- Create and activate a python virtual environment
+2. **Install dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-- Create `.env` file inside the root directory
+3. **Set environment variables**
 
-- Copy and paste everything in the `.env.example` file into the `.env` file. Don't forget to customize the variable values
+* Create a `.env` file in the root directory
+* Copy content from `.env.example` and fill out required values
+
+4. **Run database migrations**
 
 ```bash
 python manage.py migrate
 ```
 
+5. **Create a superuser**
+
 ```bash
 python manage.py createsuperuser
 ```
+
+6. **Start the development server**
 
 ```bash
 python manage.py runserver
 ```
 
-Last but not least, go to this address http://127.0.0.1:8000
+7. **Open in your browser**
 
-#### _Check [this page](https://adilmohak.github.io/dj-lms-starter/) for more insight and support._
+```
+http://127.0.0.1:8000
+```
 
-# References
+---
 
-- Quiz part: https://github.com/tomwalker/django_quiz
+## 🔗 Reference
 
-#### Show your support by ⭐️ this project!
+* Quiz module adapted from: [django\_quiz by tomwalker](https://github.com/tomwalker/django_quiz)
+
+---
+
+⭐️ **If you like LMS by Vaibhav, consider giving it a star on GitHub!**
+
+---
+
+Let me know if you'd like a custom logo, GitHub README formatting, or a project report.
